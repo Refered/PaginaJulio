@@ -20,7 +20,7 @@ function ContactForm() {
       {submitted ? (
         <div>
           <h2>Bienvenido a la UVM</h2>
-          <p>Gracias por enviar tu información de contacto.</p>
+          <p className=''>Gracias por enviar tu información de contacto.</p>
         </div>
       ) : (
         <div>
