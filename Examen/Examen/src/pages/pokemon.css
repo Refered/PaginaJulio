@@ -1,0 +1,26 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+
+
+}
+h2{
+    font-size: 50px;
+
+}
+img{
+    width: 200px;
+}
+h3{
+    font-size: 50px;
+
+}
+ul{
+    font-size: 20px;
+   
+}

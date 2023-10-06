@@ -1,0 +1,22 @@
+.content{
+        
+    
+}
+
+.lists-container {
+    display: flex; 
+    justify-content: space-between; 
+  }
+  
+  .task-list {
+    flex-grow: 1; 
+    padding: 20px; 
+  }
+
+
+  li:hover {
+    background-color: #9D76C1;
+    color: #fff;
+    cursor: pointer;
+
+  }

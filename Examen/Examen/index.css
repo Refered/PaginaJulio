@@ -1,0 +1,43 @@
+
+a{
+  color: #9D76C1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #5B0888;
+  color: #E5CFF7;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-family: fantasy;
+}
+
+footer {
+  background-color: #713ABE;
+  color: white;
+  padding: 10px;
+  align-self: flex-end;
+}
+.cuadrito{
+  
+  width: 40px;
+  height: 40px;
+  background-color: blueviolet;
+  transition: all ease-in-out 500ms;
+  animation: second linear 5s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes second {
+  100%{transform: 
+  translate(1920px)
+  rotate(360deg);
+}
+
+}
